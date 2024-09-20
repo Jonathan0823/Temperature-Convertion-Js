@@ -1,50 +1,50 @@
-*{
-    box-sizing: border-box;
-    align-items: center;
+* {
+  box-sizing: border-box;
+  align-items: center;
 }
 
-#container{
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
-    height: 600px;
-    width: 500px;
-    background-color: rgb(235, 215, 188);
+#container {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  height: 600px;
+  width: 500px;
+  background-color: rgb(235, 215, 188);
 }
 
-label{
-    font-size: 30px;
-    display: block;
+label {
+  font-size: 30px;
+  display: block;
 }
-#textbox{
-    width: 300px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
-}
-
-#convert{
-    width: 300px;
-    height: 50px;
-    font-size: 30px;
-    margin: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 30px;
+#textbox {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
 }
 
-#convert:hover{
-    background-color: rgb(243, 190, 126);
+#convert {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 30px;
 }
 
-#result{
-    font-size: 30px;
+#convert:hover {
+  background-color: rgb(243, 190, 126);
 }
 
-.unit{
-    display: inline-block;
-    padding: 20px;
-    font-size: 20px;
+#result {
+  font-size: 30px;
+}
+
+.unit {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
 }
