@@ -6,11 +6,13 @@ const number = document.getElementById("textbox");
 
 convert.onclick = function () {
   if (celsius.checked) {
-    result.textContent = (number.value * 9) / 5 + 32 + "°F";
+    let fahrenheit = ((number.value * 9) / 5) + 32;
+    result.textContent = fahrenheit.toFixed(2) + "°F";
     celsius.checked = false;
     number.value = "";
   } else if (fahrenheit.checked) {
-    result.textContent = ((number.value - 32) * 5) / 9 + "°C";
+    let celsius = (number.value - 32) * 5 / 9;
+    result.textContent = celsius.toFixed(2) + "°C";
     fahrenheit.checked = false;
     number.value = "";
   }
